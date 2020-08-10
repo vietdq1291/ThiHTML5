@@ -1,0 +1,77 @@
+body {
+	width: 100%;
+}
+.nav-menu {
+	background-image: url(images/menu.jpg);
+	background-size: 100% 100%;
+	min-height: 250px;
+	clear: both;
+}
+.nav-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	float: right;
+	padding: 50px;
+}
+.nav-menu ul>li {
+	float: left;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.nav-menu li>a {
+	display: inline-block;
+	color: #FFC;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.content {
+	display: flex;
+}
+.main {
+	max-width: 68%;
+	background-image: url(images/main_bg.gif);
+	background-size: 100% 100%;
+}
+.main>.title {
+	float: right;
+	text-transform: uppercase;
+	padding-right: 30px;
+	position: absolute;
+	top: 180px;
+	left: 130vh;
+	font-weight: 700;
+	font-size: 45px;
+}
+div .content {
+	padding-top: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 50px;
+	font-size: 25px;
+	line-height: 50px;
+}
+.menu-right {
+	min-width: 32%;
+	background-image: url(images/main_bg.gif);
+	background-size: 100% 100%;
+}
+.menu-right>.title {
+	float: left;
+	text-transform: uppercase;
+	padding-right: 30px;
+	position: absolute;
+	top: 180px;
+	left: 215vh;
+	font-weight: 700;
+	font-size: 45px;
+}
+
+.menuleft-item {
+	display:flex;
+}
+
